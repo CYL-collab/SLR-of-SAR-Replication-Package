@@ -3,7 +3,7 @@
 ```
 IC1: The paper explicitly discusses software aging and/or rejuvenation as a main research topic.
 
-IC2: The paper provides sufficient context to understand the SAR-related contribution.
+IC2: The paper provides context or related works to understand the SAR-related contribution.
 
 IC3: If the paper proposes a new method or technique related to SAR, it must include validation or evaluation to demonstrate its effectiveness.
 
