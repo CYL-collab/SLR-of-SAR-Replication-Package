@@ -84,6 +84,7 @@ MITIGATION_THEMES = {
 # Explicit, reviewable mapping from the repository taxonomy to figure themes.
 UNDERSTANDING_TAGS = {
     "udn",
+    "understanding",
     "现象分析",
     "分析bug报告",
     "classification",
@@ -140,7 +141,7 @@ def map_tokens_to_themes(value: str) -> set[str]:
             themes.add("Testing")
         elif token == "arb prediction":
             themes.add("Prediction")
-        elif token == "度量":
+        elif token in {"度量", "measurement"}:
             themes.add("Measurement")
         elif token == "rej":
             themes.add("Rejuvenation")

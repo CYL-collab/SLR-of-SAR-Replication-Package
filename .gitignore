@@ -44,8 +44,12 @@ temp/
 
 # Local Codex workspace state
 .codex/
+.codex-tmp/
 
 # Operating-system metadata
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+figures
+pdfs_by_analysis_tag
